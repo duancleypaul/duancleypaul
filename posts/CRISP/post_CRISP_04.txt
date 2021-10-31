@@ -1,0 +1,133 @@
+# CRISP-DS: Método cíclico para Data Science
+
+Já ouviu falar do método CRISP-DS?
+
+Se você trabalha com dados vale a pena conhecer.
+
+CRISP (Cross Industry Standard Process for Data Science) é uma abordagem que nos ajuda a conduzir projetos de ciência de dados de forma dinâmica e continuada.
+
+
+
+
+
+1- BUSINESS PROBLEM
+	- I want to post an article on Medium/LinkedIn about CRISP-DM methodology
+
+
+
+
+2- BUSINESS UNDERSTANDING
+	- Motivation:
+		. I want to nurture a habit of publishing articles on Medium/LinkedIn at least once a month
+	- Constraints:
+		. I have other work activities that are more important and cannot be left aside.
+	- Other relevant information:
+		. I don't have to finish the post in one day. It might be better if I build it little by little
+		. It would be better if I build different versions throughout the month up until I feel it is nice and neat.
+		. It doesn't need to be perfect, as long as it doesn't have false information and it is cohesive.
+		. Write it in English to reach more people
+			. Publish a PT-BR version if necessary
+		. Use easy-to-ready language, try it as if it were a "coffee talk".
+			. Use ilustrations and give others credit
+
+
+
+3- DATA EXTRACTION
+	- Jupyter Notebooks from my personal repositories
+		. repo01
+		. repo02
+		. repo03
+	- Articles, posts, and papers on the subject
+		. https://web.archive.org/web/20060624054212/http://www.crisp-dm.org/News/86605.pdf
+		. Post Gabriela Mafra (Magrathea): https://blog.magrathealabs.com/crisp-dm-and-what-i-did-wrong-70c4e7e8656
+
+
+
+
+4- DATA CLEANING
+	- Adaptation from CRISP-DM to CRISP-DS (fitting the phases to what I've seen in other projects)
+		. Business Understanding becomes "Business Problem" + "Business Understanding"
+		. Data Understanding + Data Preparation becomes "Data Extraction" + "Data Cleaning" + "EDA"
+		. Modeling becomes "Modeling" + "ML Algorithms"
+		. Evaluation stays as it is
+		. Deployment stays as it is
+	
+	- Redesign CRISP-DS (in English)
+	
+	
+	
+	
+5- EDA
+	- BUSINESS PROBLEM: it's the first contact with the business area
+		. Business areas, in general, tend to comunicate what they believe it's the solution to their problem instead of the problem itself. 
+		. Even so, it's important to listen to their expectations so you can line them up later when defining the scope of the problem.
+	- BUSINESS UNDERSTANDING: the journey from "Businessland" to "Dataville", where we translate from a business problem to a data problem.
+		. The problem must be identified and defined
+		. Do a research about the problem itself and how other companies/industries dealt with it.
+		. Raise hypothesis that can be tested throughout the EDA phase and/or validated with model predictions
+	- DATA EXTRACTION: gather the available data and access them
+		. Wait! What's the hurry? Check if you have enough processing power before you look frustrate yourself. Can you do it in your machine? Will you need cloud processing? Do you have resources to process the Gazillion lines of data available? 
+		. Consider colect additional data (ex: webscrapping, dados públicos auxiliares, etc.)
+	- DATA CLEANING: establish standards and/or format the data in a way that is simple to read/understand and makes sense to the problem
+		. Casting
+		. Lower / Upper case
+		. Treat missing values
+		. Create new features from the existing ones
+		. Define the final dataset for the EDA phase
+	- EDA: stands for Exploratory Data Analysis. Here you are going to understand what each peace of information describes and how the relate to each other. It's your opportunity to dive deeper into the business knowledge and to validate hypothesis
+		. Analysis to perform: Descriptive, Univariate, Bivariate, and Multivariate
+		. Validate hypothesis from Business Understanding phase
+		. Make a list of the main insights you've got from the data
+	- MODELING: prep the data for the application of ML Algorithms
+		. Some people like numbers and some others don't. ML Algorithms love numbers. Not only that, but they hate strings! Let's make theirs lives easier.
+		. Apply scalers, encoders, and any other techniques needed so the data fits nicely into the ML algorithms.
+	- ML ALGORITHMS: you put the data in the algorithms and let the thing cook
+				[ GET GIF FROM THE MOVIE: "we put the weed in the coconut" ]
+		. Apply different algorithms so you have a few to compare
+		. Apply Cross Validation to minimize split bias
+	- EVALUATION: use the appropriate metrics to evaluate the model and choose the best one.
+		. Define the metrics you're going to use
+		. Find out the business area tells apart the good solutions from the goofy ones. If you're model is accurate but doesn't meet their criterias, say goodbye! 
+				[ https://i.imgflip.com/3odlv1.png ]
+		. Compare the models and choose the best one. Check their performance, computational cost, and, most importantly, if they meet business criterias
+	- DEPLOYMENT: plan the deployment, make the solution available for usage, and report what you did and learned
+		. Plan, plan, plan! Then follow the plan. 
+		. Report what you did in a way that it is useful for the business and for other data scientists that might lead this project in the future
+		. Register you're experiences. What you fail now is a great lesson to your future self.
+		. Repeat the cicle up until you die. Just kidding, but do it as long as you and the business area feel that there are improvements to be made.
+	
+	
+	
+	
+6- MODELING
+	- Structure big blocs to build the post (beggining, middle, and end)
+		. BEGGINING: introduction
+		. MIDDLE: item 5
+		. END: conclusion + credits
+	
+	
+	
+	
+7- ML ALGORITHMS
+	- Link the structures to make the flow of the post you're going to publish.
+	- Consider the uniqueness of the different platforms and compare them (LinkedIn, Medium, Blog, etc.)
+
+
+
+
+8- EVALUATION
+	- Make your own evaluation of your post 
+	- Ask for a honest feedback (it's better honest than friendly)
+		- Correct if needed
+	- Select the best version and platform
+	
+	
+	
+	
+9- DEPLOYMENT
+	- Publish post
+	- Report what you did (each .txt file with version from each CRISP cicle)
+	- Register what you learned
+	
+	
+	

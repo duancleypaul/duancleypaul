@@ -1,0 +1,78 @@
+# CRISP-DS: Método cíclico para Data Science
+
+Já ouviu falar do método CRISP-DS?
+
+Se você trabalha com dados vale a pena conhecer.
+
+CRISP (Cross Industry Standard Process for Data Science) é uma abordagem que nos ajuda a conduzir projetos de ciência de dados de forma dinâmica e continuada.
+
+
+
+
+
+1- PROBLEMA DE NEGÓCIO
+	- Quero fazer um post no LinkedIn/Medium sobre o método CRISP
+
+
+
+
+2- ENTENDIMENTO DE NEGÓCIO
+	- Preciso criar o hábito de pelo menos 1 post/mês no LinkedIn/Medium 
+	- Tenho outras atividades no trabalho de maior prioridade que não podem ser deixadas de lado
+	- Não preciso finalizar a escrita do post em 1 dia
+	- Posso desenvolver diferentes versões até encontrar uma satisfatória
+	- Não precisa ser perfeito, só precisa não conter informações falsas e ser coeso.
+
+
+
+
+3- COLETA DOS DADOS
+	- Notebooks do meu repositório
+	- Matérias sobre o método CRISP
+
+
+
+
+4- LIMPEZA DOS DADOS
+	- Adaptação do método CRISP-DM para CRISP-DS (adequação das fases)
+	
+	
+	
+	
+5- EDA
+	- PROBLEMA DE NEGOCIO: primeiro contato com a área de negócio
+	- ENTENDIMENTO DE NEGOCIO: tradução do problema de negócio para um problema de dados
+	- COLETA DOS DADOS: juntar dados disponíveis e acessá-los
+	- LIMPEZA DOS DADOS: padronizar e/ou formatar os dados de forma aderente ao problema
+	- EDA: análise exploratória dos dados; entender o que cada informação descreve e como se relacionam entre si; fase de aprofundamento do entendimento dos dados e validação de hipóteses
+	- MODELAGEM DOS DADOS: preparar os dados para a aplicação dos algoritmos de ML
+	- ALGORITMOS DE ML: aplicar os algoritmos de ML
+	- AVALIACAO DO MODELO: usar métricas de avaliação dos modelos e definir modelo final
+	- DEPLOY: disponibilizar (publicar) modelo em produção
+	
+	
+	
+	
+6- MODELAGEM DOS DADOS
+	- Estruturar blocos do post (começo, meio e fim)
+	
+	
+	
+	
+7- ALGORITMOS DE ML
+	- Interligar as estruturas formando o post a ser publicado
+	- Considerar diferentes plataformas (LinkedIn, Medium, Blog, etc)
+
+
+
+
+8- AVALIACAO DOS MODELOS
+	- Auto avaliação 
+	- Pedir feedback de alguém
+	- Selecionar o formato mais adequado
+	
+	
+	
+	
+9- DEPLOY
+	- Publicar post

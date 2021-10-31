@@ -1,0 +1,117 @@
+# CRISP-DS: Método cíclico para Data Science
+
+Já ouviu falar do método CRISP-DS?
+
+Se você trabalha com dados vale a pena conhecer.
+
+CRISP (Cross Industry Standard Process for Data Science) é uma abordagem que nos ajuda a conduzir projetos de ciência de dados de forma dinâmica e continuada.
+
+
+
+
+
+1- PROBLEMA DE NEGÓCIO
+	- Quero fazer um post no LinkedIn/Medium sobre o método CRISP
+
+
+
+
+2- ENTENDIMENTO DE NEGÓCIO
+	- Motivação:
+		. Preciso criar o hábito de pelo menos 1 post/mês no LinkedIn/Medium 
+	- Limitações:
+		. Tenho outras atividades no trabalho de maior prioridade que não podem ser deixadas de lado
+	- Outras informações relevantes:
+		. Não preciso finalizar a escrita do post em 1 dia
+		. Posso desenvolver diferentes versões até encontrar uma satisfatória
+		. Não precisa ser perfeito, só precisa não conter informações falsas e ser coeso.
+
+
+
+
+3- COLETA DOS DADOS
+	- Notebooks do meu repositório
+		. Healthcare Cross Sell
+		. Wholesale Customers
+		. Private 1
+	- Matérias, artigos e papers sobre o método CRISP
+		. https://web.archive.org/web/20060624054212/http://www.crisp-dm.org/News/86605.pdf
+
+
+
+
+4- LIMPEZA DOS DADOS
+	- Adaptação do método CRISP-DM para CRISP-DS (adequação das fases)
+		. Business Understanding: passa a ser "Problema de Negócio" + "Entendimento de Negócio"
+		. Data Understanding + Data Preparation: passa a ser "Coleta de Dados" + "Limpeza de Dados" + "EDA"
+		. Modeling: passa a ser "Modelagem de Dados" + "Algoritmos de ML"
+		. Evaluation: se mantém como "Avaliação do Modelo"
+		. Deployment: se mantém como "Deploy"
+	
+	
+	
+5- EDA
+	- PROBLEMA DE NEGOCIO: primeiro contato com a área de negócio
+		. As áreas de negócio tendem a informar o que elas acreditam ser uma solução para o problema, e não o problema em si. 
+		. Mesmo assim é importante ouvir a expectativa da área para que seja alinhada antes da definição do escopo.
+	- ENTENDIMENTO DE NEGOCIO: tradução do problema de negócio para um problema de dados
+		. O problema é definido
+		. É feita uma pesquisa de mercado sobre o problema
+		. São levantadas as hipóteses que serão validadas / desvalidadas ao longo da análise exploratória e/ou preditiva
+	- COLETA DOS DADOS: juntar dados disponíveis e acessá-los
+		. Verificar poder de processamento necessário
+		. Cogitar coleta de dados adicionais (ex: webscrapping, dados públicos auxiliares, etc.)
+	- LIMPEZA DOS DADOS: padronizar e/ou formatar os dados de forma aderente ao problema
+		. Casting
+		. Lower / Upper case
+		. Tratamento de dados faltantes
+		. Definição do(s) dataset(s) final(is) para a fase de EDA
+	- EDA: análise exploratória dos dados; entender o que cada informação descreve e como se relacionam entre si; fase de aprofundamento do entendimento dos dados e validação de hipóteses
+		. Análise univariada, bivariada e multivariada
+		. Validar ou desvalidar hipóteses da fase de Entendimento de Negócio
+		. Listar principais insights obtidos dos dados
+	- MODELAGEM DOS DADOS: preparar os dados para a aplicação dos algoritmos de ML
+		. Normalizar, discretizar e/ou aplicar técnicas necessárias para que os dados estejam no formato aceitável pelos modelos de ML (formato numérico)
+	- ALGORITMOS DE ML: aplicar os algoritmos de ML
+		. Aplicar vários modelos
+		. Aplicar Cross Validation para garantir mitigação de viés do split
+	- AVALIACAO DO MODELO: usar métricas de avaliação dos modelos e definir modelo final
+		. Definir métricas a serem usadas
+		. Comparar resultados dos modelos na fase anterior
+		. Definir o modelo que melhor atende à necessidade da área de negócio (OBS: não necessariamente será o de maior acurácia)
+	- DEPLOY: disponibilizar (publicar) modelo em produção
+		. Definir classes, helpers, APIs, etc.
+	
+	
+	
+	
+6- MODELAGEM DOS DADOS
+	- Estruturar blocos do post (começo, meio e fim)
+		. COMEÇO: introdução
+		. MEIO: item 5
+		. FIM: conclusão + créditos ao Meigarom
+	
+	
+	
+	
+7- ALGORITMOS DE ML
+	- Interligar as estruturas formando o post a ser publicado
+	- Considerar diferentes plataformas (LinkedIn, Medium, Blog, etc)
+
+
+
+
+8- AVALIACAO DOS MODELOS
+	- Auto avaliação 
+	- Pedir feedback de alguém
+	- Selecionar o formato mais adequado
+	
+	
+	
+	
+9- DEPLOY
+	- Publicar post
+	
+	
+	
+	
