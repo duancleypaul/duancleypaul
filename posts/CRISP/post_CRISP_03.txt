@@ -33,9 +33,9 @@ CRISP (Cross Industry Standard Process for Data Science) é uma abordagem que no
 
 3- COLETA DOS DADOS
 	- Notebooks do meu repositório
-		. Healthcare Cross Sell
-		. Wholesale Customers
-		. Private 1
+		. repo01
+		. repo02
+		. repo03
 	- Matérias, artigos e papers sobre o método CRISP
 		. https://web.archive.org/web/20060624054212/http://www.crisp-dm.org/News/86605.pdf
 		. Post Gabriela Mafra (Magrathea): https://blog.magrathealabs.com/crisp-dm-and-what-i-did-wrong-70c4e7e8656
