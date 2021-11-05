@@ -1,10 +1,8 @@
-# CRISP-DS: Método cíclico para Data Science
+# CRISP-DS: Cyclic Methodology for Data Science
 
-Já ouviu falar do método CRISP-DS?
+Have you ever heard about CRISP-DS?
 
-Se você trabalha com dados vale a pena conhecer.
-
-CRISP (Cross Industry Standard Process for Data Science) é uma abordagem que nos ajuda a conduzir projetos de ciência de dados de forma dinâmica e continuada.
+CRISP (Cross Industry Standard Process for Data Science) it's a methodology that helps us conducting DS projects continuously and dynamically.
 
 
 
